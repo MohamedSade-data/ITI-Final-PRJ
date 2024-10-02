@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>Hotel Reservation DWH</DataSourceReference>
+      <CommandText>
+SELECT top 100 TRIM(Dim_Guest.Full_Name) AS [Full Name], LEFT(CONVERT(DATETIME, CAST([Check-in Date] AS CHAR(8)), 112), 11) AS [Check_in Date], 
+lEFT(CONVERT(DATETIME, CAST([Check-out Date] AS CHAR(8)), 112), 11) AS [Check_out Date], [Total Nights], [Total Amount]
+FROM Dim_Guest, Fact_Table
+WHERE Dim_Guest.Guest_id_SK = Fact_Table.Guest_FK
+ORDER BY [Total Amount] DESC</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="Full_Name">
+        <DataField>Full Name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Check_in_Date">
+        <DataField>Check_in Date</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Check_out_Date">
+        <DataField>Check_out Date</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Total_Nights">
+        <DataField>Total Nights</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Total_Amount">
+        <DataField>Total Amount</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

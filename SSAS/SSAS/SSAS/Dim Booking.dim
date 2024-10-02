@@ -1,0 +1,242 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="58c039de-e0fd-4c99-b43f-33104e4a9614" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Booking</ID>
+  <Name>Dim Booking</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2478" scrolltop="-5660" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9144" y="16320" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Booking" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4149" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003510000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Booking" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2478</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5660</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="30864653-db06-47ac-b5e0-aeb29746ae62">
+    <DataSourceViewID>DSV2</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="2c8453b7-2fd1-4418-ae3a-c36e3fd6dd94">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="b79395c1-fa73-4ea5-a1ec-aebc120ae2dd">
+      <ID>Booking Id SK</ID>
+      <Name>Booking Id SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fd549d42-2ebf-4e3b-b820-bc6a7ecf784e">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="60c1cff6-f282-4c30-b283-a0bd00ea17e7">
+            <TableID>dbo_Dim_Booking</TableID>
+            <ColumnID>Booking_id_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="c8e9be8c-685c-4d10-bc72-e5cde5c675ac">
+          <AttributeID>Adults</AttributeID>
+          <Name>Adults</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3e2a50e2-939f-4198-96d3-eaed8fd90200">
+          <AttributeID>Children</AttributeID>
+          <Name>Children</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6be2102a-1be0-4c5e-a3ad-b1c4d0c438e0">
+          <AttributeID>Special Requests</AttributeID>
+          <Name>Special Requests</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b3cf516b-1de7-4934-9cf8-7d70d843ad48">
+          <AttributeID>Reservation Source</AttributeID>
+          <Name>Reservation Source</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d2ebd1e4-fb42-4665-ae54-7cebaf50c891">
+          <AttributeID>Breakfast Included</AttributeID>
+          <Name>Breakfast Included</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="22d7e251-b259-456b-b694-46aae44f05c2">
+          <AttributeID>Spa Package Included</AttributeID>
+          <Name>Spa Package Included</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0cb6e427-17d3-41fa-a8a5-06074ed403e8">
+          <AttributeID>Airport Pickup Included</AttributeID>
+          <Name>Airport Pickup Included</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="af73a508-2fa7-4a4f-b4d7-dfcd84801941">
+      <ID>Adults</ID>
+      <Name>Adults</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="86150e2b-f232-4d3a-89a2-1c63cb52bb4f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b3e5e781-f324-494e-accc-05c4c0724178">
+            <TableID>dbo_Dim_Booking</TableID>
+            <ColumnID>Adults</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b3549227-a0c6-4e4d-bbdf-cdf712634533">
+      <ID>Children</ID>
+      <Name>Children</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4d562596-d271-482d-aa5a-12c563655b79">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e81485aa-0914-4e06-a611-6f20c20b9d34">
+            <TableID>dbo_Dim_Booking</TableID>
+            <ColumnID>Children</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="822802ed-493f-4672-8cb7-e9e68642ecd4">
+      <ID>Special Requests</ID>
+      <Name>Special Requests</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="89f439fe-a8dd-4f2d-ab97-829c87caf5f8">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c57bf158-be58-40de-85a2-b0617c2e6110">
+            <TableID>dbo_Dim_Booking</TableID>
+            <ColumnID>Special_x0020_Requests</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b047d82a-6cfe-44e8-9790-eea439c6e9e2">
+      <ID>Reservation Source</ID>
+      <Name>Reservation Source</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="520d4c79-a702-4837-8b9f-699a4ddf1768">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a79eb8bc-2e0b-4641-8a49-9515cc2636c5">
+            <TableID>dbo_Dim_Booking</TableID>
+            <ColumnID>Reservation_x0020_Source</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f8151a9d-37be-4dfa-bbb0-e4c4c929951c">
+      <ID>Breakfast Included</ID>
+      <Name>Breakfast Included</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a4807a0c-a6e9-435e-b441-0d932573035c">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="82193595-e312-4a40-9e0c-cb2c40f2bb6b">
+            <TableID>dbo_Dim_Booking</TableID>
+            <ColumnID>Breakfast_x0020_Included</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ab0dd9f1-c38c-4260-87ee-4a0cf45e1a85">
+      <ID>Spa Package Included</ID>
+      <Name>Spa Package Included</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ec6a6d4b-076b-4647-8bde-e5f4f520f17d">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a9159259-430c-4d6b-8fec-21f22b69641c">
+            <TableID>dbo_Dim_Booking</TableID>
+            <ColumnID>Spa_x0020_Package_x0020_Included</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e003a91f-bd6e-4aff-8e9e-1ef4f57f0490">
+      <ID>Airport Pickup Included</ID>
+      <Name>Airport Pickup Included</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8e6c3443-5edb-4d4b-b921-4c1443efe24e">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="06e2508e-7215-4934-bb46-d8e1898ecca4">
+            <TableID>dbo_Dim_Booking</TableID>
+            <ColumnID>Airport_x0020_Pickup_x0020_Included</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

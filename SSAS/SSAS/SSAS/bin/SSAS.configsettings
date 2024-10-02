@@ -1,0 +1,177 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>Hotel Reservation DWH</ID>
+        <ConnectionString>Provider=SQLOLEDB.1;Data Source=MR-HEISNBERG\HAITHAM_SAADY;Integrated Security=SSPI;Initial Catalog=Hotel Reservation DWH</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>Dim Date</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Hotel</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Guest</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Room</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Booking</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Date 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Hotel 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Room 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Review</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Date 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Hotel 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Guest 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Booking 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Date 3</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Hotel 3</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Date 4</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Hotel 4</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Room 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Date 5</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Hotel 5</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Room 3</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Booking 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Fact Table</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>Guest Booking Analysis</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Table</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Table</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Hotel Occupancy and Revenue</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Table</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Table</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Review Sentiment Analysis</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dim Review</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Review</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Fact Table</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Table</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Booking Source Effectiveness</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Table</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Table</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Room Performance Analysis</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Table</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Table</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Room Revenue Analysis</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Table</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Table</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+      <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

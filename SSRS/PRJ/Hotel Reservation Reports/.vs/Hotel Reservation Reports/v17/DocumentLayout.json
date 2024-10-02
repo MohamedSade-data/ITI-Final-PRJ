@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D630214-78D0-41F9-8C26-30AF997A06EF}|Hotel Reservation Reports\\Hotel Reservation Reports.rptproj|E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Hotels Rating Report.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{8D630214-78D0-41F9-8C26-30AF997A06EF}|Hotel Reservation Reports\\Hotel Reservation Reports.rptproj|solutionrelative:Hotel Reservation Reports\\Hotels Rating Report.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D630214-78D0-41F9-8C26-30AF997A06EF}|Hotel Reservation Reports\\Hotel Reservation Reports.rptproj|E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Hotel Report.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{8D630214-78D0-41F9-8C26-30AF997A06EF}|Hotel Reservation Reports\\Hotel Reservation Reports.rptproj|solutionrelative:Hotel Reservation Reports\\Hotel Report.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D630214-78D0-41F9-8C26-30AF997A06EF}|Hotel Reservation Reports\\Hotel Reservation Reports.rptproj|E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Review Report.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{8D630214-78D0-41F9-8C26-30AF997A06EF}|Hotel Reservation Reports\\Hotel Reservation Reports.rptproj|solutionrelative:Hotel Reservation Reports\\Review Report.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D630214-78D0-41F9-8C26-30AF997A06EF}|Hotel Reservation Reports\\Hotel Reservation Reports.rptproj|E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Room Report.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{8D630214-78D0-41F9-8C26-30AF997A06EF}|Hotel Reservation Reports\\Hotel Reservation Reports.rptproj|solutionrelative:Hotel Reservation Reports\\Room Report.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D630214-78D0-41F9-8C26-30AF997A06EF}|Hotel Reservation Reports\\Hotel Reservation Reports.rptproj|E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Hotel City Report.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{8D630214-78D0-41F9-8C26-30AF997A06EF}|Hotel Reservation Reports\\Hotel Reservation Reports.rptproj|solutionrelative:Hotel Reservation Reports\\Hotel City Report.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D630214-78D0-41F9-8C26-30AF997A06EF}|Hotel Reservation Reports\\Hotel Reservation Reports.rptproj|E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Guest Report.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{8D630214-78D0-41F9-8C26-30AF997A06EF}|Hotel Reservation Reports\\Hotel Reservation Reports.rptproj|solutionrelative:Hotel Reservation Reports\\Guest Report.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D630214-78D0-41F9-8C26-30AF997A06EF}|Hotel Reservation Reports\\Hotel Reservation Reports.rptproj|E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Review Text Report.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{8D630214-78D0-41F9-8C26-30AF997A06EF}|Hotel Reservation Reports\\Hotel Reservation Reports.rptproj|solutionrelative:Hotel Reservation Reports\\Review Text Report.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Review Text Report.rdl [Design]",
+              "DocumentMoniker": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Review Text Report.rdl",
+              "RelativeDocumentMoniker": "Hotel Reservation Reports\\Review Text Report.rdl",
+              "ToolTip": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\Hotel Reservation Reports\\Hotel Reservation Reports\\Review Text Report.rdl [Design]",
+              "RelativeToolTip": "..\\..\\Hotel Reservation Reports\\Hotel Reservation Reports\\Review Text Report.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-11T18:56:22.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Review Report.rdl [Design]",
+              "DocumentMoniker": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Review Report.rdl",
+              "RelativeDocumentMoniker": "Hotel Reservation Reports\\Review Report.rdl",
+              "ToolTip": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\Hotel Reservation Reports\\Hotel Reservation Reports\\Review Report.rdl [Design]",
+              "RelativeToolTip": "..\\..\\Hotel Reservation Reports\\Hotel Reservation Reports\\Review Report.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-11T05:07:26.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hotel Report.rdl [Design]",
+              "DocumentMoniker": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Hotel Report.rdl",
+              "RelativeDocumentMoniker": "Hotel Reservation Reports\\Hotel Report.rdl",
+              "ToolTip": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\Hotel Reservation Reports\\Hotel Reservation Reports\\Hotel Report.rdl [Design]",
+              "RelativeToolTip": "..\\..\\Hotel Reservation Reports\\Hotel Reservation Reports\\Hotel Report.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-11T04:04:16.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hotels Rating Report.rdl [Design]",
+              "DocumentMoniker": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Hotels Rating Report.rdl",
+              "RelativeDocumentMoniker": "Hotel Reservation Reports\\Hotels Rating Report.rdl",
+              "ToolTip": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Hotels Rating Report.rdl [Design]",
+              "RelativeToolTip": "Hotel Reservation Reports\\Hotels Rating Report.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-11T22:02:32.618Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Room Report.rdl [Design]",
+              "DocumentMoniker": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Room Report.rdl",
+              "RelativeDocumentMoniker": "Hotel Reservation Reports\\Room Report.rdl",
+              "ToolTip": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\Hotel Reservation Reports\\Hotel Reservation Reports\\Room Report.rdl [Design]",
+              "RelativeToolTip": "..\\..\\Hotel Reservation Reports\\Hotel Reservation Reports\\Room Report.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-11T04:52:40.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hotel City Report.rdl [Design]",
+              "DocumentMoniker": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Hotel City Report.rdl",
+              "RelativeDocumentMoniker": "Hotel Reservation Reports\\Hotel City Report.rdl",
+              "ToolTip": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\Hotel Reservation Reports\\Hotel Reservation Reports\\Hotel City Report.rdl [Design]",
+              "RelativeToolTip": "..\\..\\Hotel Reservation Reports\\Hotel Reservation Reports\\Hotel City Report.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-11T04:37:23.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Guest Report.rdl [Design]",
+              "DocumentMoniker": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\PRJ\\Hotel Reservation Reports\\Hotel Reservation Reports\\Guest Report.rdl",
+              "RelativeDocumentMoniker": "Hotel Reservation Reports\\Guest Report.rdl",
+              "ToolTip": "E:\\ITI Bi\\Final Prj\\Finsal PRJ Last Version\\SSRS\\Hotel Reservation Reports\\Hotel Reservation Reports\\Guest Report.rdl [Design]",
+              "RelativeToolTip": "..\\..\\Hotel Reservation Reports\\Hotel Reservation Reports\\Guest Report.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-11T03:49:10.187Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
